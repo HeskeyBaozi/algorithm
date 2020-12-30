@@ -1,0 +1,16 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "interview",
+  "repository": "https://github.com/HeskeyBaozi/algorithm.git",
+  "author": "HeskeyBaozi <hezhiyu233@foxmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@umijs/fabric": "^2.4.9",
+    "eslint": "^7.16.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
