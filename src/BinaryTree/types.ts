@@ -9,3 +9,8 @@ export class TreeNode {
     this.right = right === undefined ? null : right;
   }
 }
+
+export interface SearchMeta {
+  node: TreeNode;
+  depth: number;
+}

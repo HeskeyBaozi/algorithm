@@ -1,4 +1,3 @@
-import { deepStrictEqual } from 'assert';
 import { preorderTraversal } from './depth-first-search';
 import { TreeNode } from './types';
 
@@ -10,7 +9,7 @@ describe('Depth First Search', () => {
   );
 
   it('should work', () => {
-    const generator = preorderTraversal(null);
-    deepStrictEqual([...generator], [1, 2, 3, 4, 5, 6, 7]);
+    const generator = preorderTraversal(case1);
+    expect([...generator].map(({ node }) => node.val)).toStrictEqual([1, 2, 3, 4, 5, 6, 7]);
   });
 });
